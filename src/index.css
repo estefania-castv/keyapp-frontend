@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --kp-primary: #2a7c87;
+  --kp-primary-dark: #1f5e66;
+  --kp-secondary: #40b8a6;
+  --kp-accent-light: #9fdbd2;
+  --kp-bg: #f4faf9;
+  --kp-text: #2c3440;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', system-ui, sans-serif;
+  background: var(--kp-bg);
+  color: var(--kp-text);
+}
+
+.navbar-kp {
+  background: linear-gradient(90deg, var(--kp-primary), var(--kp-secondary));
+}
+
+.kp-logo {
+  height: 38px;
+  width: auto;
+}
+
+.btn-kp {
+  background: linear-gradient(135deg, var(--kp-primary), var(--kp-secondary));
+  border: none;
+  color: #fff;
+}
+.btn-kp:hover {
+  filter: brightness(0.93);
+  color: #fff;
+}
+
+.kp-login-card {
+  max-width: 380px;
+  width: 100%;
+}
+
+.kp-login-logo {
+  max-width: 260px;
+  width: 100%;
+}
